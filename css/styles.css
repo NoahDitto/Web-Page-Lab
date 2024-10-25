@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* Body */
+body {
+	font-family: source-sans;
+	background-color: white;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: bold;
+	font-weight: 200;
+}
+/* Container */
+/* .container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	background-color: #FFFFFF;
+} */
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: brown;
+	border-bottom: 1px solid #2C9AB7;
+}
+.logo {
+	float: left;
+	position: absolute;
+	width: 80px;
+	padding-top: 12px;
+    top: 0;
+	padding-left: 25px;
+    left: 0;
+}
+.logo:hover {
+	content: url('logohover.png');
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	padding-top: 12px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #FFFF00;
+	text-decoration: underline;
+	text-decoration-color: #FFFF00;
+	text-decoration-style: dashed;
+	text-decoration-thickness: 5px;
+	
+}
+.hero_header {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 0px;
+	padding-top: 60px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-size: 40px;
+	letter-spacing: 4px;
+}
+/* Hero */
+.hero {
+  background-image: url("bannerhero.jpg");
+  background-size: cover;
+  background-position: left;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: 200px;	
+}
+
+/* Main Content */
+main {
+	background-color: #fff;
+	padding: 2%;
+	font-size: 1.25em;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.grizzly {
+	width: auto;
+	height: auto;
+	border-radius: 12px;
+}
+
+/* Copyright / Footer */
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	background-color: lightgrey;
+	color: black;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+footer {
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 1px;
+	background-color: lightgrey;
+}
+	
+.divider {
+	color: black;
+	background-color: ligthgray;
+	border: none;
+	height: 2px;
+}
+
+
+
